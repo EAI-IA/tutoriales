@@ -61,11 +61,25 @@ git push -u origin main
 
 ## 🔹 3. Flujo de trabajo diario (actualizaciones)
 
-* Ver cambios:
+#### * ¿Dónde entra el comando git clone?
+    Ese paso va antes de cualquier modificación, y solo lo usas cuando no tienes ya el repositorio local.
+    Es decir:
+    - Si es la primera vez en una máquina nueva → clonas.
+    - Si ya tienes la carpeta local → solo haces git pull para actualizar.
 
+* Clonar el repositorio (solo la primera vez en una máquina nueva):
   ```bash
-  git status
+  git clone git@github.com:EAI-IA/NOMBRE_REPO.git
+  cd NOMBRE_REPO
   ```
+
+* Actualizar a la última versión (cuando ya tienes el repo local):
+  ```bash
+  git pull
+  ```
+
+* Hacer cambios
+
 * Guardar cambios:
 
   ```bash
@@ -77,12 +91,11 @@ git push -u origin main
   ```bash
   git push
   ```
-* Descargar actualizaciones:
+* Ver cambios:
 
   ```bash
-  git pull
+  git status
   ```
-
 ---
 
 ## 🔹 4. Manejo de errores comunes

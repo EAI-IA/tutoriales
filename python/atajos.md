@@ -1,0 +1,28 @@
+## Descripción
+
+- **Visualización Dinámica**:
+    - `top`
+    - `htop`
+- **Listados de Procesos**:
+    - `ps aux`
+    - `pstree`
+- **Búsqueda de Procesos**:
+    - `pgrep`
+    - `pidof`
+- **Gestión de Procesos**:
+    - `kill`
+    - `killall`
+    - `nice`
+    - `renice`
+- **Estado del Sistema**:
+    - `systemctl`
+    - `vmstat`
+- **Conexiones de Red**:
+    - `netstat`
+    - `ss`
+- **Otros**:
+    - `htop -p`
+    - `watch`
+- Abrir la ventana desde el terminal <>
+    - xdg-open .
+- `sudo apt install xdg-utils`
